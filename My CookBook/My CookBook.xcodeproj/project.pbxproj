@@ -99,12 +99,11 @@
 		553819CC25783FA5002AE79D /* My CookBook */ = {
 			isa = PBXGroup;
 			children = (
+				553819FD25798791002AE79D /* Storyboards */,
 				553819CD25783FA5002AE79D /* AppDelegate.swift */,
 				553819CF25783FA5002AE79D /* SceneDelegate.swift */,
 				553819D125783FA5002AE79D /* ViewController.swift */,
-				553819D325783FA5002AE79D /* Main.storyboard */,
 				553819D625783FB0002AE79D /* Assets.xcassets */,
-				553819D825783FB0002AE79D /* LaunchScreen.storyboard */,
 				553819DB25783FB0002AE79D /* Info.plist */,
 			);
 			path = "My CookBook";
@@ -126,6 +125,15 @@
 				553819F125783FB1002AE79D /* Info.plist */,
 			);
 			path = "My CookBookUITests";
+			sourceTree = "<group>";
+		};
+		553819FD25798791002AE79D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				553819D325783FA5002AE79D /* Main.storyboard */,
+				553819D825783FB0002AE79D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
