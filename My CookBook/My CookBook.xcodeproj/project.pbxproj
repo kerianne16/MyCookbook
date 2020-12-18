@@ -24,6 +24,7 @@
 		55381A09257994FE002AE79D /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55381A07257994FE002AE79D /* AddRecipeViewController.swift */; };
 		55381A0A257994FE002AE79D /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55381A07257994FE002AE79D /* AddRecipeViewController.swift */; };
 		55422CAC258A993500B03CB8 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 55422CAB258A993500B03CB8 /* recipes.json */; };
+		55422CB0258D31C800B03CB8 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55422CAF258D31C800B03CB8 /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		55381A0325799447002AE79D /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
 		55381A07257994FE002AE79D /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
 		55422CAB258A993500B03CB8 /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		55422CAF258D31C800B03CB8 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		553819CC25783FA5002AE79D /* My CookBook */ = {
 			isa = PBXGroup;
 			children = (
+				55422CAE258D310400B03CB8 /* Model */,
 				553819FE25799393002AE79D /* View Controllers */,
 				553819FD25798791002AE79D /* Storyboards */,
 				553819CD25783FA5002AE79D /* AppDelegate.swift */,
@@ -157,6 +160,14 @@
 				55381A07257994FE002AE79D /* AddRecipeViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		55422CAE258D310400B03CB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55422CAF258D31C800B03CB8 /* Recipe.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 				553819CE25783FA5002AE79D /* AppDelegate.swift in Sources */,
 				553819D025783FA5002AE79D /* SceneDelegate.swift in Sources */,
 				55381A08257994FE002AE79D /* AddRecipeViewController.swift in Sources */,
+				55422CB0258D31C800B03CB8 /* Recipe.swift in Sources */,
 				55381A00257993B6002AE79D /* CookbookTableViewController.swift in Sources */,
 				55381A0425799448002AE79D /* RecipeDetailsViewController.swift in Sources */,
 			);
