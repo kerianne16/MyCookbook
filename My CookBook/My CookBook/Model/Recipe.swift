@@ -10,3 +10,7 @@ import UIKit
 import Foundation
 
 
+struct RecipeJSON: Codable {
+    let name: String
+    let description: String
+}
